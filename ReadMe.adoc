@@ -1,6 +1,11 @@
 = gh-pages test
+* http://gwmccort.github.io/test-gh-pages/
+
+== Notes
+. Didn't work until I created the gh-pages branch by hand.
 
 == Resources
 * https://github.com/ajoberstar/gradle-git/wiki/org.ajoberstar.github-pages[gh-pages doc]
 * https://github.com/ajoberstar/gradle-git/wiki[gradle-git wiki]
 * https://github.com/asciidoctor/asciidoctor-gradle-examples/tree/master/asciidoc-to-github-pages-example[example setup]
+* http://melix.github.io/blog/2014/02/hosting-jbake-github.html[Authoring your blog on GitHub with JBake and Gradle]

@@ -3,9 +3,18 @@ plugins {
   id 'com.github.ben-manes.versions' version '0.11.3'
 }
 
+// githubPages {
+//   repoUri = 'https://github.com/gwmccort/test-gh-pages.git'
+//   pages {
+//     from 'build/site'
+//   }
+// }
+
 githubPages {
   repoUri = 'https://github.com/gwmccort/test-gh-pages.git'
   pages {
-    from 'build/site'
+     from(file('build/site')) {
+     	into '.'                                    
+     }
   }
 }
