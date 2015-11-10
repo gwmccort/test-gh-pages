@@ -1,1 +1,6 @@
 = gh-pages test
+
+== Resources
+* https://github.com/ajoberstar/gradle-git/wiki/org.ajoberstar.github-pages[gh-pages doc]
+* https://github.com/ajoberstar/gradle-git/wiki[gradle-git wiki]
+* https://github.com/asciidoctor/asciidoctor-gradle-examples/tree/master/asciidoc-to-github-pages-example[example setup]

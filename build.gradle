@@ -1,0 +1,11 @@
+plugins {
+  id "org.ajoberstar.github-pages" version "1.3.2"
+  id 'com.github.ben-manes.versions' version '0.11.3'
+}
+
+githubPages {
+  repoUri = 'https://github.com/gwmccort/test-gh-pages.git'
+  pages {
+    from 'build/site'
+  }
+}
