@@ -1,6 +1,11 @@
 plugins {
   id "org.ajoberstar.github-pages" version "1.3.2"
+  id 'org.asciidoctor.convert' version '1.5.2'
   id 'com.github.ben-manes.versions' version '0.11.3'
+}
+
+asciidoctor {
+	attributes	'toc': 'left'
 }
 
 // githubPages {
@@ -8,13 +13,13 @@ plugins {
 //   pages {
 //     from 'build/site'
 //   }
-// }
+// } C:\Users\Glen\Src\examples\jbake\gh-pages\build\asciidoc\html5
 
 githubPages {
   repoUri = 'https://github.com/gwmccort/test-gh-pages.git'
   pages {
-     from(file('build/site')) {
-     	into '.'                                    
+     from(file('build/asciidoc/html5')) {
+     	into '.'
      }
   }
 }

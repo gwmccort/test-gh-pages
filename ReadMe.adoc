@@ -1,6 +1,9 @@
 = gh-pages test
 * http://gwmccort.github.io/test-gh-pages/
 
+== T2D
+. Don't have to enter stuff
+
 == Notes
 . Didn't work until I created the gh-pages branch by hand.
 
